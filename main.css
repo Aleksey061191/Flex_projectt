@@ -3,9 +3,11 @@
 }
 *{box-sizing: border-box;}
 .fon{
-    width: 100%;
-    height: 100%;
+
     background-image: url('./Images/Rectangle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .hero_content{
     display: flex;
@@ -33,7 +35,7 @@ header .menu ul li{
     padding-top: 10em;
     text-align: center;
     color: #ffffff;
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
@@ -42,7 +44,7 @@ header .menu ul li{
     height: 111px;
     text-align: center;
     color: #ffffff;
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 48px;
     margin-top: 0;
@@ -66,7 +68,7 @@ a{  text-decoration: none;
     width: 200px;
     height: 45px;
     color: #ffffff;
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
 
@@ -90,14 +92,14 @@ a{  text-decoration: none;
     text-align: center;
 }
 h2{
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
 .serv_menu.hero_content>p{
     width: 730px;
     height: 41px;
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
@@ -110,7 +112,7 @@ h2{
     height: 139px;
 }
 .services_item .item h3{
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 16px;
     width: 226px;
@@ -119,7 +121,7 @@ h2{
     float: right;
 }
 .services_item .item p{
-    font-family: 'montserrat';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     width: 222px;
